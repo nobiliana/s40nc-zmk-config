@@ -21,28 +21,28 @@
 		
 		default_layer {
 			bindings = <
-                &kp TAB    &kp Q     &kp W     &kp E  &kp R     &kp T      &kp Y   &kp U  &kp I     &kp O     &kp P     &kp BSPC
-                &kp LCTRL  &kp A     &kp S     &kp D  &kp F     &kp G      &kp H   &kp J  &kp K     &kp L               &kp ENTER
-                &kp LSHFT  &kp Z     &kp X     &kp C  &kp V     &kp B      &kp N   &kp M  &kp RSHFT           &kp UP    &mo RAISE
-                &mo RAISE  &kp LGUI  &kp LALT    &kp SPACE      &mo LOWER   &kp SPACE               &kp LEFT  &kp DOWN  &kp RIGHT
+                &kp TAB     &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U       &kp I      &kp O      &kp P         &kp BSPC
+                &kp LCTRL   &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J       &kp K      &kp L                    &kp ENTER
+                &kp LSHFT   &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M       &kp RSHFT             &kp UP        &mo RAISE
+                &mo RAISE   &kp LGUI   &kp LALT    &kp SPACE         &mo LOWER         &kp SPACE              &kp LEFT          &kp DOWN      &kp RIGHT
 			>;
 		};
 
 		lower_layer {
 			bindings = <
-                &trans     &kp ESC    &kp PG_UP  &kp GRAVE  &trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_N0  &kp LBKT  &kp RBKT      &kp DEL
-                &trans     &kp HOME   &kp PG_DN  &kp END    &kp LC(F)  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp SEMI   &kp APOS                &kp BSLH
-                &trans     &kp FSLH   &kp MINUS  &kp EQUAL  &kp TAB    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp COMMA            &kp DOT       &trans
-                &trans     &out OUT_TOG &trans     &trans           &trans             &kp KP_DOT          &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2
+                &trans      &kp ESC    &kp PG_UP  &kp GRAVE  &trans     &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_N0  &kp LBKT   &kp RBKT      &kp DEL
+                &trans      &kp HOME   &kp PG_DN  &kp END    &kp LC(F)  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp SEMI   &kp APOS                 &kp BSLH
+                &trans      &kp FSLH   &kp MINUS  &kp EQUAL  &kp TAB    &kp KP_N1  &kp KP_N2  &kp KP_N3   &trans                &kp RCTRL     &trans
+                &trans      &out OUT_TOG &trans    &trans            &trans            &kp KP_DOT             &kp KP_NLCK       &kp SLCK      &kp CAPS
 			>;
 		};
         
         raise_layer {
 			bindings = <
-                &kp TILDE  &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR   &trans
-                &kp PSCRN  &kp UNDER  &kp PLUS  &trans    &trans    &trans     &trans     &kp LBRC  &kp RBRC  &kp COLON             &kp DQT
-                &trans     &trans     &trans    &trans    &trans    &trans     &trans     &kp LT    &kp GT               &kp PG_UP  &kp PIPE
-                &trans     &trans     &trans    &kp TAB             &kp TAB               &kp TAB             &kp HOME   &kp PG_DN  &kp END
+                &bt BT_CLR  &kp F9     &kp F10   &kp F11     &kp F12    &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR  &kp LC(C)    &kp LC(V)     &kp PSCRN
+                &trans      &kp F5     &kp F6    &kp F7      &kp F8     &kp DLLR   &kp PRCNT  &kp CARET  &trans    &trans                     &kp INS
+                &trans      &kp F1     &kp F2    &kp F3      &kp F4     &kp EXCL   &kp AT     &kp HASH   &kp COMMA              &kp DOT       &trans
+                &trans      &trans     &trans      &bt BT_PRV        &trans            &bt BT_NXT             &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2
 			>;
 		};
         
